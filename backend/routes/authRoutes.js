@@ -151,12 +151,12 @@ const sendVerifyMail = async (name, email, user_id) => {
       host: 'smtp.gmail.com',
       port: 587,
       auth: {
-        user: '2020ucs0095@iitjammu.ac.in',
-        pass: 'tzek trdm stta awvn'
+        user: '',
+        pass: ''
       }
     });
     const mailOptions = {
-      from: '2020ucs0095@iitjammu.ac.in',
+      from: 'Your Mail',
       to: email,
       subject: 'Verification',
       html: `<p>Hi ${name}, please click <a href="http://localhost:3000/verify?id=${user_id}">here</a> to verify your email</p>`
