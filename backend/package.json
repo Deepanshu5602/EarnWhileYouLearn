@@ -1,0 +1,35 @@
+{
+  "name": "ewyl-backend",
+  "version": "1.0.0",
+  "description": "This is the npm for backend of our website earn while you learn",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aman-garg-IITian/EWYL-Earn-While-You-Learn-.git"
+  },
+  "author": "Aman_Kumar Shreya_Jain Deepanshu_Mittal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aman-garg-IITian/EWYL-Earn-While-You-Learn-/issues"
+  },
+  "homepage": "https://github.com/Aman-garg-IITian/EWYL-Earn-While-You-Learn-#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.3",
+    "mongoose-type-email": "^1.1.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "uuid": "^9.0.1"
+  }
+}
